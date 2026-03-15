@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace TP_MODUL4_103022400056
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("--- DAFTAR KELURAHAN DAN KODE POS ---");
+            KodePos.TampilkanSemua();
+        }
+    }
+}
