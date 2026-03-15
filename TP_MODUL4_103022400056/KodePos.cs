@@ -36,7 +36,7 @@ namespace TP_MODUL4_103022400056
             Console.WriteLine(String.Format("{0,-15} | {1}", "Kelurahan", "Kode pos"));
             Console.WriteLine("-------------------------");
 
-            // Trik fix bug: Ambil daftar nama string-nya dulu, baru diconvert ke angka
+            
             foreach (string nama in Enum.GetNames(typeof(Kelurahan)))
             {
                 int kode = (int)Enum.Parse(typeof(Kelurahan), nama);
