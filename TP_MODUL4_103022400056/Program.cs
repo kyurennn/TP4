@@ -8,6 +8,12 @@ namespace TP_MODUL4_103022400056
         {
             Console.WriteLine("--- DAFTAR KELURAHAN DAN KODE POS ---");
             KodePos.TampilkanSemua();
+
+            Console.WriteLine("--- SIMULASI DOOR MACHINE ---");
+            DoorMachine pintu = new DoorMachine();
+
+            pintu.BukaPintu();
+            pintu.KunciPintu();
         }
     }
 }
